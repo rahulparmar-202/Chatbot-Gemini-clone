@@ -23,7 +23,7 @@ const Main = () => {
               <p><span>Hello, Sir.</span></p>
               <p>How can I help you today</p>
             </div>
-            <div className="cards">
+            <div className="cards" role='region' aria-label="cards">
               <div className="card">
                 <p>Suggest beautifull places to see on an upcoming road trip.</p>
                 <img src={assets.compass_icon} alt="" />
